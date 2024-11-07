@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cores inspiradas no tema Shrek */
+body {
+    font-family: 'MedievalSharp', sans-serif;
+    background-color: #f4e7c2;
+    color: #2e4725;
+}
+
+header {
+    background-color: #2e4725;
+    padding: 1em;
+    text-align: center;
+    color: #f4e7c2;
+}
+
+header .logo {
+    font-size: 2.5em;
+}
+
+header .barra-pesquisa {
+    padding: 0.5em;
+    margin-top: 10px;
+    border: 2px solid #f4e7c2;
+    background-color: #ebc88d;
+    border-radius: 5px;
+    color: #2e4725;
+}
+
+.chamada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #8fbc8f;
+}
+
+.chamada h2 {
+    font-size: 2em;
+}
+
+.chamada p {
+    margin-top: 0.5em;
+    color: #3b5427;
+}
+
+.imagem-shrek img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.categoria {
+    padding: 2em;
+}
+
+.categoria h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.categoria-videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.categoria .video {
+    background-color: #d7e5c2;
+    border: 2px solid #3b5427;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.categoria .video img {
+    width: 100%;
+    border-bottom: 2px solid #3b5427;
+}
+
+.categoria .video p {
+    padding: 0.5em;
+}
+
+.categorias-adicionais {
+    background-color: #2e4725;
+    padding: 1em;
+    text-align: center;
+}
+
+.categorias-adicionais h2 {
+    color: #f4e7c2;
+}
+
+.categorias-adicionais ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.categorias-adicionais a {
+    color: #ebc88d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2e4725;
+    color: #f4e7c2;
+    text-align: center;
+    padding: 1em;
+}
